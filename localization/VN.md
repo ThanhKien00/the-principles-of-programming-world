@@ -7,3 +7,17 @@ Tuy nhiên, các nguyên tắc được xếp hạng cao hơn sẽ được ưu 
 Danh sách này được lấy cảm hứng từ <!-- markdown-link-check-disable-next-line -->
 [The Principles of Good Programming](https://www.artima.com/weblogs/viewpost.jsp?thread=331531)
 (down? [Google's cache](https://webcache.googleusercontent.com/search?q=cache:KU51T8hZ-0kJ:https://www.artima.com/weblogs/viewpost.jsp%3Fthread%3D331531+&cd=1&hl=en&ct=clnk&gl=nl&client=pub-3911176865765226)).
+
+## Nguyên tắc Lập trình là gì ?
+
+Nguyên tắc Lập trình (Programming Principles) là những hướng dẫn hay quy tắc cơ bản giúp quá trình viết nên một phần mềm hiệu quả, có thể bảo trì và đáng tin cậy.
+
+## Lợi ích của Nguyên tắc Lập trình
+
+- Tính dễ đọc và cộng tác cao
+- Tính khả chuyển, khả năng bảo trì và khả năng mở rộng
+- Khả năng Module hóa và đáng tin cậy
+
+## Nguyên tắc chung
+
+### KISS (Keep It Simple, Stupid !)

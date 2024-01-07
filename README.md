@@ -18,6 +18,8 @@ This article is a fork of [programming-principles repository by Lars Kappert](ht
   * [Benefits of Programming Principles](#benefits-of-programming-principles)
   * [Common Principles](#common-principles)
     * [KISS (Keep It Simple, Stupid !)](#kiss-keep-it-simple-stupid-)
+    * [MIMC (More Is More Complex)](#mimc-more-is-more-complex)
+    * [YAGNI (You Aren't Gonna Need It)](#yagni-you-arent-gonna-need-it)
 <!-- TOC -->
 
 ## What are Programming Principles ?

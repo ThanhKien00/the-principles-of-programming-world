@@ -37,8 +37,26 @@ Programming Principles are fundamental guidelines or rules that help guide the p
 The KISS principle is about striving for simplicity, KISS states that a solution 
 is better when it uses less inheritance, less polymorphism, fewer classes, ect.
 This does not mean that features like inheritance or polymorphism should not be used at all.
-Rather they should only be used when they are necessary or there's some substantial advantage.[1]
+Rather they should only be used when they are necessary or there's some substantial advantage.
 
-**References**
+**_Strategy_**
+- Avoid:
+  - Complicated OOP concepts like inheritance, polymorphism or dynamic binding.
+  - Low-level optimization of algorithms, especially when involving Assembler, Bit-operators and pointers.
+  - Numerous classes and methods as well as large code blocks.
+  - Avoid general solutions needing parameterization.
+- Should:
+  - Use simple brute-force solutions. Slower algorithms will work in the first place.
+  - use private methods instead of an additional class for slightly unrelated but rather small functional pieces.
 
-- [1] [_Keep It Simple Stupid (KISS)_, (principles-wiki.net)](http://principles-wiki.net/principles:keep_it_simple_stupid)
+**_Note:_** 
+Many principles are contrary to KISS, Some of these needing consideration: **Generation Principle**, **Murphy's Law**, **Model Principle**.
+
+**_References_**
+- [_Keep It Simple Stupid (KISS)_, (principles-wiki.net)](http://principles-wiki.net/principles:keep_it_simple_stupid)
+- [_KISS principle_, (wikipedia.org)](https://en.wikipedia.org/wiki/KISS_principle)
+- [_Keep it Simple, Stupid – How to Use the KISS Principle in Design_, Shafayetul Islam](https://www.linkedin.com/pulse/keep-simple-stupid-how-use-kiss-principle-design-shafayetul-islam/)
+
+### MIMC (More Is More Complex)
+
+### YAGNI (You Aren't Gonna Need It)

@@ -18,15 +18,22 @@ This article is a fork of [programming-principles repository by Lars Kappert](ht
   * [Benefits of Programming Principles](#benefits-of-programming-principles)
   * [General Principles](#general-principles)
     * [Keep It Simple, Stupid ! (KISS)](#keep-it-simple-stupid--kiss)
-    * [MIMC (More Is More Complex)](#mimc-more-is-more-complex)
+    * [More Is More Complex (MIMC)](#more-is-more-complex-mimc)
     * [You Aren't Gonna Need It (YAGNI)](#you-arent-gonna-need-it-yagni)
     * [Don't Repeat Yourself (DRY)](#dont-repeat-yourself-dry)
     * [Rule of Explicitness (RoE)](#rule-of-explicitness-roe)
     * [Generalization Principle (GP)](#generalization-principle-gp)
-    * [Boy Scout Rule](#boy-scout-rule-)
+    * [Boy Scout Rule (BSR)](#boy-scout-rule-bsr)
   * [Modularization Principles](#modularization-principles)
+    * [Module Principle (MP)](#module-principle-mp)
+    * [High Cohesion (HC)](#high-cohesion-hc)
   * [Module Communication Principles](#module-communication-principles)
+    * [Law of Demeter (LoD)](#law-of-demeter-lod)
+    * [Inversion of Control (IoC)](#inversion-of-control-ioc)
   * [Interface Design Principles](#interface-design-principles)
+    * [Easy to Use and Hard to Misuse (EUHM)](#easy-to-use-and-hard-to-misuse-euhm)
+    * [Principle of Least Surprise (PLS)](#principle-of-least-surprise-pls)
+    * [Uniformity Principle (UP)](#uniformity-principle-up)
   * [Internal Module Design Principles](#internal-module-design-principles)
 <!-- TOC -->
 
@@ -67,7 +74,21 @@ Many principles are contrary to KISS, Some of these needing consideration: **Gen
 - [_KISS principle_, (wikipedia.org)](https://en.wikipedia.org/wiki/KISS_principle)
 - [Shafayetul Islam, _Keep it Simple, Stupid – How to Use the KISS Principle in Design_](https://www.linkedin.com/pulse/keep-simple-stupid-how-use-kiss-principle-design-shafayetul-islam/)
 
-### MIMC (More Is More Complex)
+### More Is More Complex (MIMC)
+The MIMC Principle is a rule of thumb stating that the introduction of further modules usually has a higher complexity as a drawback.
+The capabilities of the human mind are certainly limited. If there are many modules, looking for a particular module takes a long time,
+the longer the searching takes, the more one will have forgotten what has been read previously. This results in the worst readability, understandability, and thus maintainability.
+
+**_Strategy_**
+- Avoid Many modules
+  - Merge several modules into one.
+  - Put the functionality into another module instead of introduce new module.
+- Avoid Big modules
+  - Divide large modules into several smaller ones.
+  - Introduce new modules to group related functionality.
+
+**_References_**
+- [_More Is More Complex (MIMC)_, (principles-wiki.net)](http://principles-wiki.net/principles:more_is_more_complex)
 
 ### You Aren't Gonna Need It (YAGNI)
 The YAGNI states a Programmer shouldn't add functionality until deemed necessary. This principle encourages
@@ -86,7 +107,7 @@ Always implement things when you actually need them, never when you just foresee
 
 ### Generalization Principle (GP)
 
-### Boy Scout Rule 
+### Boy Scout Rule (BSR)
 The Boy Scouts have a rule: "Always leave the campground cleaner than you found it". In development, 
 we follow a similar rule in our code: "Always check a module in cleaner than when you checked it out".
 
@@ -100,8 +121,22 @@ we follow a similar rule in our code: "Always check a module in cleaner than whe
 
 ## Modularization Principles
 
+### Module Principle (MP)
+
+### High Cohesion (HC)
+
 ## Module Communication Principles
 
+### Law of Demeter (LoD)
+
+### Inversion of Control (IoC)
+
 ## Interface Design Principles
+
+### Easy to Use and Hard to Misuse (EUHM)
+
+### Principle of Least Surprise (PLS)
+
+### Uniformity Principle (UP)
 
 ## Internal Module Design Principles

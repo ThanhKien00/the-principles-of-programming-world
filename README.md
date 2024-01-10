@@ -102,6 +102,19 @@ Always implement things when you actually need them, never when you just foresee
 - [_YAGNI PRINCIPLE_, (developerexeprience.io)](https://developerexperience.io/articles/yagni-principle)
 
 ### Don't Repeat Yourself (DRY)
+Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+DRY principle states that if there is duplication, there shall be some "single source of truth". When one piece 
+of information has several representations DRY demands one and only one representation being the definitive one.
+
+**_Strategy_**
+- Factor out a common base class.
+- Add a new invokable module (a function, a method, a class, etc.) or use polymorphism instead of duplicating code.
+- Use code generation when information has to be represented in multiple forms.
+- Apply the [Rule of Three](https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)).
+
+**_References_**
+- [Andrew Hunt and David Thomas, _The Pragmatic Programmer_](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+- [_Don't Repeat Yourself (DRY)_, (principles-wiki.net)](http://principles-wiki.net/principles:don_t_repeat_yourself)
 
 ### Rule of Explicitness (RoE)
 

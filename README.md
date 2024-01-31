@@ -117,6 +117,23 @@ of information has several representations DRY demands one and only one represen
 - [_Don't Repeat Yourself (DRY)_, (principles-wiki.net)](http://principles-wiki.net/principles:don_t_repeat_yourself)
 
 ### Rule of Explicitness (RoE)
+RoE states that explicit solutions are better than implicit ones. 
+Indirection, side effects, configuration files, implicit conversions, etc. should be avoided.
+
+**_Strategy_**
+- _Avoid indirection_: (but keep [LC]() in mind)
+  - Events, listeners, observers, etc. Use direct references instead.
+  - Messaging middleware in favor of direct communication.
+- _Avoid configurability_ (but keep [GP]() in mind):Configuration files for specifying behavior. Instead implement varying behavior explicitly.
+- _Explicitly state which module to use_: Avoid importing all classes of a given package/namespace, import the needed classes explicitly.
+- _Explicitly name parameters_: 
+  - Avoid long parameter lists and use objects with explicit attribute assignments instead.
+  - Use parameter types that explicitly state what the input is. Rather use specific types for parameters like customers, articles, URLs, colors, money, etc. 
+    instead of using strings or integers for these values.
+
+**_References_**
+- [_Rule of Explicitness (RoE)_, (principles-wiki.net)](http://principles-wiki.net/principles:rule_of_explicitness)
+
 
 ### Generalization Principle (GP)
 
